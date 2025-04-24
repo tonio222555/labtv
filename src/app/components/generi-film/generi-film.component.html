@@ -1,0 +1,15 @@
+<div class="container">
+    <ng-container *ngFor="let g of mGenre">
+        <div class="card">
+            <a [routerLink]="['/homepage', g.id]">
+            <img mat-card-image src="https://image.tmdb.org/t/p/w300{{ g.poster_path }}">
+            </a>
+        <div class="overlay">
+            <div class="buttons">
+                <button>Guarda ora</button>
+                <button>+</button>
+            </div>
+        </div>
+      </div>
+    </ng-container>
+</div> 

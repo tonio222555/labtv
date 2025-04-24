@@ -1,0 +1,9 @@
+<div class="hero">
+    <img  *ngIf="filmCasuale.backdrop_path" src="https://image.tmdb.org/t/p/original{{filmCasuale.backdrop_path}}" >
+    <div class="gradient-overlay"></div>
+    <div class="box-contenuto">
+        <h2>{{filmCasuale.title}}</h2>
+        <button mat-raised-button class="right">Riproduci film</button>
+        <button mat-raised-button [routerLink]="['/homepage', filmCasuale.id]">Altre info</button>
+    </div>
+</div>

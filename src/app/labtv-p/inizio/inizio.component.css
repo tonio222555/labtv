@@ -1,0 +1,56 @@
+.background{
+    background-image: url(../../../assets/immagini/accedi.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.background-color{
+    background-color: rgba(0, 0, 0, 0.753);
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenuto{
+    max-width: 800px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.contenuto h1{
+    text-shadow: black 5px 10px 20px ;
+    font-size: 4em;
+}
+
+.contenuto h3{
+    text-shadow: black 5px 10px 10px ;
+    font-size: 1.5em; 
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.nav-start{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.nav-start img{
+    width: 10%;
+}
+
+.btn-register{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around
+}
+
+.mat-mdc-form-field{
+    min-width: 500px;
+}
+

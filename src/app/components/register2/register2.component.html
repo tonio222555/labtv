@@ -1,0 +1,25 @@
+<div class="background">
+    <div class="background-color">
+        <div class="border">
+            <form #loginForm="ngForm">
+                <div class="nav-start">
+                    <a routerLink="/labtv"><img src="../../../../assets/immagini/logo.png" alt="Torna all' inizio"></a>
+                </div>
+                <h2>Completa la registrazione!</h2>
+                <p class="label">Email</p>
+                <p class="email">{{authService.email}}</p>
+                <mat-form-field>
+                    <mat-label>Inserisci il tuo nome</mat-label>
+                    <input matInput #nameField="ngModel" [(ngModel)]="name" placeholder="labtv@example.com" type="text" name="name" required>
+                    <mat-error *ngIf="nameField.hasError('required')">Nome obbligatorio</mat-error>
+                </mat-form-field>
+                <mat-form-field>
+                    <mat-label>Inserisci la tua password</mat-label>
+                    <input matInput #passwordField="ngModel" [(ngModel)]="password" type="password" name="password" required>
+                    <mat-error *ngIf="passwordField.hasError('required')">Password obbligatoria</mat-error>
+                </mat-form-field>
+                <button mat-raised-button (click)="register()">Regitrati</button>
+            </form>
+        </div>
+    </div>
+</div>

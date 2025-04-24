@@ -1,0 +1,29 @@
+<div class="background">
+    <div class="background-color">
+        <div class="border">
+            <form #loginForm="ngForm" (ngSubmit)="login()">
+            <div class="nav-start">
+                <a routerLink="/labtv"><img src="../../../../assets/immagini/logo.png" alt="Torna all' inizio"></a>
+            </div>
+            <h2>Accedi a LabTV</h2>
+            <mat-form-field>
+                <mat-label>Inserisci la tua email</mat-label>
+                <input matInput #emailField="ngModel" [(ngModel)]="userModel.email" placeholder="labtv@example.com" type="email" name="email" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
+                <mat-error *ngIf="emailField.hasError('required')">Email obbligatoria</mat-error>
+                <mat-error *ngIf="emailField.hasError('pattern')">Email non valida</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Inserisci la tua password</mat-label>
+                <input matInput #passwordField="ngModel" [(ngModel)]="userModel.password" type="password" name="password" required>
+                <mat-error *ngIf="passwordField.hasError('required')">Password obbligatoria</mat-error>
+            </mat-form-field>
+            <button mat-raised-button type="submit">Accedi</button>
+            <mat-error *ngIf="errorMessage">{{errorMessage}}</mat-error> 
+            <div class="button-container">
+                <p>Non hai un account ?</p>
+                <a routerLink="/register1">Crea account</a>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,96 @@
+.container{
+    margin-left: 20px;
+}
+
+.wrap{
+    display: flex;
+    overflow: hidden;
+    padding: 0 30px 30px 30px;
+}
+
+.card{
+    margin: 1%;
+    box-shadow: rgba(0, 0, 0, 0.69) 11px 4px 10px 0px;
+    border-radius: 8px;
+    transition: .5s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    mix-blend-mode: soft-light
+
+}
+
+.wrap img{
+    display: block;
+    width: 18vw;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.gradient{
+    background: linear-gradient(180deg, transparent, #141414, #141414);
+    position: absolute;
+    top: 92%;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    z-index: 20;
+}
+
+.wrap h2{
+    margin: 1%;
+    padding-left: 30px;
+}
+
+a{
+    display: block;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    height: 100vh;
+    position: relative;
+    z-index: 10;
+}
+
+.hero img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.box-contenuto{
+    border-radius: 5px;
+    width: 35%;
+    padding: 20px;
+    margin-left: 50px;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    backdrop-filter: brightness(0.4);
+}
+
+button{
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.2em;
+    text-shadow: black 2px 2px 4px
+
+}
+
+.hero h2{
+    font-size: 2em;
+    text-shadow: black 5px 5px 5px;
+    margin-top: 0;
+}
+
+.right{
+    margin-right: 3%;
+}
