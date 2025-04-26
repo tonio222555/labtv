@@ -183,6 +183,14 @@ export class FilmService {
         if (acquisti.length === 0) return of();
         const idAcquisto = acquisti[0].id;
         return this.httpClient.delete(`${this.serverUrl}/film/${idAcquisto}`, { headers });
+      }),
+      catchError(error => {
+        if (error.status === 401){
+          this.as.logout();
+          this.router.navigate(['/login']);
+          
+        }
+        return throwError(() => error);
       })
     );
   }
