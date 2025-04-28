@@ -101,3 +101,15 @@ nav ul li button:hover {
         margin-bottom: 0;
     }
 }
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    nav ul {
+        gap: 1em
+    }
+
+    nav ul li a span,
+    nav ul li button span {
+        font-size: 0.8em;
+    }
+}
