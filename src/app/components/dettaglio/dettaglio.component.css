@@ -164,24 +164,109 @@ button .mat-icon-button:hover {
   background: rgba(255, 255, 255, 0.1);
 }
 
-
-
-@media (max-width: 768px) {
-  .film-main-content {
+@media (max-width: 600px) {
+  .film-detail-wrapper {
+    padding: 1.5em;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
   }
 
   .film-poster {
-    width: 180px;
+    width: 200px;
+    margin-bottom: 1.5rem;
+  }
+
+  .film-main-content {
+    gap: 1rem;
+    justify-content: center;
   }
 
   .film-title {
     font-size: 2rem;
-    text-align: center;
+  }
+
+  .film-tagline {
+    font-size: 1rem;
+  }
+
+  .film-meta {
+    min-width: 100%;
+    margin-left: 0;
+  }
+
+  .film-buttons {
+    gap: 0.5rem;
   }
 
   .film-overview {
-    text-align: center;
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .cast-item {
+    font-size: 0.9rem;
+  }
+
+  .similar-movie-list {
+    gap: 0.5rem;
+  }
+
+  .movie-card {
+    min-width: 90px;
+  }
+
+  .arrow {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .film-detail-wrapper {
+    padding: 2em;
+  }
+
+  .film-poster {
+    width: 220px;
+  }
+
+  .film-main-content {
+    gap: 1.5rem;
+  }
+
+  .film-title {
+    font-size: 2.5rem;
+  }
+
+  .film-tagline {
+    font-size: 1.1rem;
+  }
+
+  .film-meta {
+    min-width: 300px;
+  }
+
+  .film-buttons {
+    gap: 1rem;
+  }
+
+  .film-overview {
+    font-size: 1rem;
+    max-width: 90%;
+  }
+
+  .cast-item {
+    font-size: 1rem;
+  }
+
+  .similar-movie-list {
+    gap: 0.8rem;
+  }
+
+  .movie-card {
+    min-width: 100px;
+  }
+
+  .arrow {
+    font-size: 3rem;
   }
 }

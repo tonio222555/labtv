@@ -30,7 +30,6 @@ import { CardsFilmComponent } from './components/cards-film/cards-film.component
 import { GeneriFilmComponent } from './components/generi-film/generi-film.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FilmRicercaComponent } from './components/film-ricerca/film-ricerca.component';
-import { HomeFilmComponent } from './components/home-film/home-film.component';
 import { DettaglioComponent } from './components/dettaglio/dettaglio.component';
 import {MatSelectModule} from '@angular/material/select';
 import { MatChipsModule } from '@angular/material/chips';
@@ -57,7 +56,6 @@ import { MatDialogModule } from '@angular/material/dialog';
     GeneriFilmComponent,
     FooterComponent,
     FilmRicercaComponent,
-    HomeFilmComponent,
     DettaglioComponent,
     VideoComponent
   ],

@@ -68,23 +68,22 @@ a {
   color: inherit;
 }
 
-@media screen and (max-width: 768px) {
-  .box-generi {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1em;
-    left: 5%;
+@media (max-width: 600px) {
+  .container {
+      padding: 1.5em;
   }
 
   .card {
-    width: 80vw;
+      max-width: 25vw; 
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  .container {
+      padding: 2em;
   }
 
-  .box-generi h2 {
-    font-size: 1.4em;
-  }
-
-  #genere {
-    width: 100%;
+  .card {
+      max-width: 25vw;
   }
 }

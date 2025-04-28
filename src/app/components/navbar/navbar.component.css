@@ -4,6 +4,7 @@ nav {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: nowrap;
     background-color: #0e0b14e1;
     padding: 0.5rem 2rem;
     position: sticky;
@@ -21,8 +22,6 @@ nav ul {
     display: flex;
     list-style: none;
     gap: 2rem;
-    margin: 0;
-    padding: 0;
     align-items: center;
 }
 
@@ -37,6 +36,9 @@ nav ul li button {
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 nav ul li a:hover,
@@ -60,34 +62,42 @@ nav ul li button:hover {
 }
 
 .white-icon:hover {
-    color: #e50914
+    color: #e50914;
 }
-  
-  
-/* Mobile styles */
-@media (max-width: 768px) {
+
+@media (max-width: 600px) {
     nav {
         padding: 1rem;
     }
 
     nav ul {
         width: 100%;
-        gap: 1rem;
+        gap: 1.5rem;
         margin-top: 1rem;
+        justify-content: center;
     }
 
     nav ul li {
-        width: 100%;
+        width: auto;
+    }
+
+    nav ul:nth-of-type(2) {
+        gap: 0; 
     }
 
     nav ul li a,
     nav ul li button {
-        width: 100%;
-        text-align: left;
+        font-size: 1.5rem;
+        gap: 0;
+        justify-content: center;
+    }
+
+    nav ul li a span,
+    nav ul li button span {
+        display: none;
     }
 
     .img-home {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
 }
-

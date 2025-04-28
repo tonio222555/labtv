@@ -36,3 +36,23 @@
     text-decoration: none;
     color: inherit;
   }
+
+  @media (max-width: 600px) {
+    .container {
+        padding: 1.5em;
+    }
+
+    .card {
+        max-width: 25vw; 
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        padding: 2em;
+    }
+
+    .card {
+        max-width: 25vw;
+    }
+}

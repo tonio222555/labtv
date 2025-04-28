@@ -55,24 +55,55 @@
     z-index: 2;
   }
   
-  /* Responsive */
-  @media (max-width: 768px) {
+  @media (max-width: 600px) {
     .hero {
-      height: 40vh;
-      justify-content: center;
-      text-align: center;
+        height: 60vh; 
+        margin: 0.5em;
     }
-  
+
     .box-contenuto {
-      margin-left: 0;
-      padding: 0 1rem;
+        margin-left: 1rem; 
+        max-width: 90%; 
+        text-align: center;
     }
-  
+
     .box-contenuto h2 {
-      font-size: 1.5rem;
+        font-size: 1.8rem; 
     }
-  
+
     .box-contenuto button {
-      margin-top: 0.5rem;
+        margin-right: 0.5rem; 
+        font-size: 1rem; 
+        padding: 0.5rem 1.2rem; 
     }
-  }
+
+    .gradient-overlay {
+        width: 70%; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .hero {
+        height: 70vh; 
+        margin: 1em;
+    }
+
+    .box-contenuto {
+        margin-left: 2rem;
+        max-width: 80%; 
+    }
+
+    .box-contenuto h2 {
+        font-size: 2rem; 
+    }
+
+    .box-contenuto button {
+        margin-right: 0.8rem; 
+        font-size: 1.1rem; 
+    }
+
+    .gradient-overlay {
+        width: 60%; 
+    }
+}
