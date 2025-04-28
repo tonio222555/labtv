@@ -1,9 +1,0 @@
-<h2>I miei film preferiti</h2>
-<div class="container">
-    <div class="card" *ngFor="let film of preferiti">
-      <img src="https://image.tmdb.org/t/p/w300{{film.film.backdrop_path}}" alt="{{ film.film.title }}" [routerLink]="['/homepage', film.film.id]"/>
-        <div class="overlay">
-            <h4>{{ film.film.title }}</h4>
-        </div>
-    </div>
-</div>
