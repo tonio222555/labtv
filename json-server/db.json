@@ -1,0 +1,283 @@
+{
+  "users": [
+    {
+      "email": "antonio@gmail.com",
+      "password": "$2a$10$qWfeVHMmpDt9/3hWnC1vO.d69twsFCiHC4uabvRozJddLz0SYrxy2",
+      "name": "Mario",
+      "surname": "Rossi",
+      "id": 1
+    },
+    {
+      "email": "mario@gmail.com",
+      "password": "$2a$10$msaEx47.il7s5YbLcwr90u2mYIEo4GFlCyFbnn67KxlKGQmBvpeIa",
+      "name": "Antonio",
+      "surname": "Fortunati",
+      "id": 2
+    }
+  ],
+  "film": [
+    {
+      "userId": 2,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+        "belongs_to_collection": {
+          "id": 230,
+          "name": "Il padrino - Collezione",
+          "poster_path": "/asbHC0dhjmmEJFfKzeZ5I6kxZnM.jpg",
+          "backdrop_path": "/mDMCET9Ens5ANvZAWRpluBsMAtS.jpg"
+        },
+        "budget": 13000000,
+        "genres": [
+          {
+            "id": 18,
+            "name": "Dramma"
+          },
+          {
+            "id": 80,
+            "name": "Crime"
+          }
+        ],
+        "homepage": "",
+        "id": 240,
+        "imdb_id": "tt0071562",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "The Godfather Part II",
+        "overview": "Il film tratta della giovinezza e dei primi passi nel mondo del crimine di Vito Corleone, e delle difficoltà cinquant'anni più tardi di suo figlio, Michael, a mantenere in piedi l'impero Corleone. Il tutto tra vicende di emigrazione, tradimenti familiari, inchieste governative e affari.",
+        "popularity": 16.6827,
+        "poster_path": "/23NNNNLzaLnyTxwcuj680R7iBFH.jpg",
+        "production_companies": [
+          {
+            "id": 4,
+            "logo_path": "/gz66EfNoYPqHTYI4q9UEN4CbHRc.png",
+            "name": "Paramount Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 536,
+            "logo_path": null,
+            "name": "The Coppola Company",
+            "origin_country": "US"
+          },
+          {
+            "id": 70,
+            "logo_path": "/ueaENQkPcy8rlr5fGZVBXKOhlBh.png",
+            "name": "American Zoetrope",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "1974-12-20",
+        "revenue": 102600000,
+        "runtime": 200,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          },
+          {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+          },
+          {
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
+          },
+          {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Español"
+          }
+        ],
+        "status": "Released",
+        "tagline": "Nella vita una sola cosa è certa: se la storia ci ha insegnato qualcosa, è che si può uccidere chiunque.",
+        "title": "Il padrino - Parte II",
+        "video": false,
+        "vote_average": 8.571,
+        "vote_count": 12913
+      },
+      "id": 6
+    },
+    {
+      "userId": 2,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+        "belongs_to_collection": {
+          "id": 1241984,
+          "name": "Oceania - Collezione",
+          "poster_path": "/2kU9VX6YdC0easRhOU3EumErytu.jpg",
+          "backdrop_path": "/4OgaftFNqtE1UvfDDb2Eov7A5Rz.jpg"
+        },
+        "budget": 150000000,
+        "genres": [
+          {
+            "id": 16,
+            "name": "Animazione"
+          },
+          {
+            "id": 12,
+            "name": "Avventura"
+          },
+          {
+            "id": 10751,
+            "name": "Famiglia"
+          },
+          {
+            "id": 35,
+            "name": "Commedia"
+          }
+        ],
+        "homepage": "",
+        "id": 1241982,
+        "imdb_id": "tt13622970",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Moana 2",
+        "overview": "A tre anni dal suo primo viaggio, Vaiana è impegnata in un lungo viaggio alla ricerca di persone oltre le coste di Motunui. Assieme a Maui e a un nuovissimo equipaggio di improbabili marittimi, Vaiana si imbarca alla volta dei lontani mari dell'Oceania in acque pericolose per un'avventura diversa da qualsiasi cosa abbia mai affrontato.",
+        "popularity": 146.5444,
+        "poster_path": "/qdNQzzq4QnQDji90plwntjbuEGW.jpg",
+        "production_companies": [
+          {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 6125,
+            "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+            "name": "Walt Disney Animation Studios",
+            "origin_country": "US"
+          },
+          {
+            "id": 158526,
+            "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+            "name": "Walt Disney Animation Studios",
+            "origin_country": "CA"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+          },
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2024-11-21",
+        "revenue": 1059544057,
+        "runtime": 100,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "L'oceano li sta richiamando.",
+        "title": "Oceania 2",
+        "video": false,
+        "vote_average": 7.08,
+        "vote_count": 2279
+      },
+      "id": 7
+    },
+    {
+      "userId": 2,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/Zes06xI18u47pblwRGTtqRm0R8.jpg",
+        "belongs_to_collection": {
+          "id": 1471524,
+          "name": "新幹線大爆破 Collection",
+          "poster_path": null,
+          "backdrop_path": null
+        },
+        "budget": 0,
+        "genres": [
+          {
+            "id": 28,
+            "name": "Azione"
+          },
+          {
+            "id": 53,
+            "name": "Thriller"
+          },
+          {
+            "id": 80,
+            "name": "Crime"
+          },
+          {
+            "id": 18,
+            "name": "Dramma"
+          }
+        ],
+        "homepage": "https://www.netflix.com/it/title/81629968",
+        "id": 1276073,
+        "imdb_id": "tt33452974",
+        "origin_country": [
+          "JP"
+        ],
+        "original_language": "ja",
+        "original_title": "新幹線大爆破",
+        "overview": "Quando un treno veloce diretto a Tokyo è destinato a esplodere se rallenta sotto i 100 chilometri all'ora, le autorità corrono contro il tempo per salvare i passeggeri nel panico.",
+        "popularity": 352.3333,
+        "poster_path": "/xzIt4P1rc0apYYnWswqUzR4kcX2.jpg",
+        "production_companies": [
+          {
+            "id": 185004,
+            "logo_path": "/tyHnxjQJLH6h4iDQKhN5iqebWmX.png",
+            "name": "Netflix",
+            "origin_country": "JP"
+          },
+          {
+            "id": 205952,
+            "logo_path": null,
+            "name": "EPISCOPE",
+            "origin_country": "JP"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "JP",
+            "name": "Japan"
+          }
+        ],
+        "release_date": "2025-04-23",
+        "revenue": 0,
+        "runtime": 134,
+        "spoken_languages": [
+          {
+            "english_name": "Japanese",
+            "iso_639_1": "ja",
+            "name": "日本語"
+          }
+        ],
+        "status": "Released",
+        "tagline": "",
+        "title": "Bullet Train Explosion",
+        "video": false,
+        "vote_average": 6.425,
+        "vote_count": 73
+      },
+      "id": 8
+    }
+  ]
+}
