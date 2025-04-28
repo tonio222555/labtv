@@ -113,96 +113,6 @@
       "userId": 2,
       "film": {
         "adult": false,
-        "backdrop_path": "/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
-        "belongs_to_collection": {
-          "id": 1241984,
-          "name": "Oceania - Collezione",
-          "poster_path": "/2kU9VX6YdC0easRhOU3EumErytu.jpg",
-          "backdrop_path": "/4OgaftFNqtE1UvfDDb2Eov7A5Rz.jpg"
-        },
-        "budget": 150000000,
-        "genres": [
-          {
-            "id": 16,
-            "name": "Animazione"
-          },
-          {
-            "id": 12,
-            "name": "Avventura"
-          },
-          {
-            "id": 10751,
-            "name": "Famiglia"
-          },
-          {
-            "id": 35,
-            "name": "Commedia"
-          }
-        ],
-        "homepage": "",
-        "id": 1241982,
-        "imdb_id": "tt13622970",
-        "origin_country": [
-          "US"
-        ],
-        "original_language": "en",
-        "original_title": "Moana 2",
-        "overview": "A tre anni dal suo primo viaggio, Vaiana è impegnata in un lungo viaggio alla ricerca di persone oltre le coste di Motunui. Assieme a Maui e a un nuovissimo equipaggio di improbabili marittimi, Vaiana si imbarca alla volta dei lontani mari dell'Oceania in acque pericolose per un'avventura diversa da qualsiasi cosa abbia mai affrontato.",
-        "popularity": 146.5444,
-        "poster_path": "/qdNQzzq4QnQDji90plwntjbuEGW.jpg",
-        "production_companies": [
-          {
-            "id": 2,
-            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
-            "name": "Walt Disney Pictures",
-            "origin_country": "US"
-          },
-          {
-            "id": 6125,
-            "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
-            "name": "Walt Disney Animation Studios",
-            "origin_country": "US"
-          },
-          {
-            "id": 158526,
-            "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
-            "name": "Walt Disney Animation Studios",
-            "origin_country": "CA"
-          }
-        ],
-        "production_countries": [
-          {
-            "iso_3166_1": "CA",
-            "name": "Canada"
-          },
-          {
-            "iso_3166_1": "US",
-            "name": "United States of America"
-          }
-        ],
-        "release_date": "2024-11-21",
-        "revenue": 1059544057,
-        "runtime": 100,
-        "spoken_languages": [
-          {
-            "english_name": "English",
-            "iso_639_1": "en",
-            "name": "English"
-          }
-        ],
-        "status": "Released",
-        "tagline": "L'oceano li sta richiamando.",
-        "title": "Oceania 2",
-        "video": false,
-        "vote_average": 7.08,
-        "vote_count": 2279
-      },
-      "id": 7
-    },
-    {
-      "userId": 2,
-      "film": {
-        "adult": false,
         "backdrop_path": "/Zes06xI18u47pblwRGTtqRm0R8.jpg",
         "belongs_to_collection": {
           "id": 1471524,
@@ -278,6 +188,294 @@
         "vote_count": 73
       },
       "id": 8
+    },
+    {
+      "userId": 2,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/zo8CIjJ2nfNOevqNajwMRO6Hwka.jpg",
+        "belongs_to_collection": {
+          "id": 1241984,
+          "name": "Oceania - Collezione",
+          "poster_path": "/2kU9VX6YdC0easRhOU3EumErytu.jpg",
+          "backdrop_path": "/4OgaftFNqtE1UvfDDb2Eov7A5Rz.jpg"
+        },
+        "budget": 150000000,
+        "genres": [
+          {
+            "id": 16,
+            "name": "Animazione"
+          },
+          {
+            "id": 12,
+            "name": "Avventura"
+          },
+          {
+            "id": 10751,
+            "name": "Famiglia"
+          },
+          {
+            "id": 35,
+            "name": "Commedia"
+          }
+        ],
+        "homepage": "",
+        "id": 1241982,
+        "imdb_id": "tt13622970",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Moana 2",
+        "overview": "A tre anni dal suo primo viaggio, Vaiana è impegnata in un lungo viaggio alla ricerca di persone oltre le coste di Motunui. Assieme a Maui e a un nuovissimo equipaggio di improbabili marittimi, Vaiana si imbarca alla volta dei lontani mari dell'Oceania in acque pericolose per un'avventura diversa da qualsiasi cosa abbia mai affrontato.",
+        "popularity": 145.2409,
+        "poster_path": "/qdNQzzq4QnQDji90plwntjbuEGW.jpg",
+        "production_companies": [
+          {
+            "id": 2,
+            "logo_path": "/wdrCwmRnLFJhEoH8GSfymY85KHT.png",
+            "name": "Walt Disney Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 6125,
+            "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+            "name": "Walt Disney Animation Studios",
+            "origin_country": "US"
+          },
+          {
+            "id": 158526,
+            "logo_path": "/tzsMJBJZINu7GHzrpYzpReWhh66.png",
+            "name": "Walt Disney Animation Studios",
+            "origin_country": "CA"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "CA",
+            "name": "Canada"
+          },
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2024-11-21",
+        "revenue": 1059544057,
+        "runtime": 100,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "L'oceano li sta richiamando.",
+        "title": "Oceania 2",
+        "video": false,
+        "vote_average": 7.078,
+        "vote_count": 2294
+      },
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/56lv8d5yst1SBhw1uR3iGFd1R43.jpg",
+        "belongs_to_collection": {
+          "id": 1461530,
+          "name": "The Minecraft Movie Collection",
+          "poster_path": "/8jMQ2sVZ1RRiYSpcb7Yommo7V4r.jpg",
+          "backdrop_path": "/48TbIdb60bjLvVhj6W71YNvDM2p.jpg"
+        },
+        "budget": 150000000,
+        "genres": [
+          {
+            "id": 10751,
+            "name": "Famiglia"
+          },
+          {
+            "id": 35,
+            "name": "Commedia"
+          },
+          {
+            "id": 12,
+            "name": "Avventura"
+          },
+          {
+            "id": 14,
+            "name": "Fantasy"
+          }
+        ],
+        "homepage": "",
+        "id": 950387,
+        "imdb_id": "tt3566834",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "A Minecraft Movie",
+        "overview": "Benvenuti nel mondo di Minecraft, dove la creatività non serve solo a costruire, ma è essenziale per la sopravvivenza! Quattro improvvisati avventurieri – Garrett “The Garbage Man” Garrison (Momoa), Henry (Hansen), Natalie (Myers) e Dawn (Brooks) – sono alle prese con problemi quotidiani quando vengono improvvisamente trascinati, attraverso un misterioso portale, nell’Overworld: un bizzarro paese delle meraviglie cubico dove regna l’immaginazione. Per far ritorno a casa, dovranno imparare a padroneggiare questo mondo (e proteggerlo dalla minaccia di Piglins e Zombie) mentre intraprendono una magica missione affiancati da un esperto e inaspettato ‘costruttore’ del posto, Steve (Black). L’avventura metterà alla prova tutti e cinque, sfidandoli a essere coraggiosi e a ritrovare le qualità che rendono ciascuno di loro unico e creativo… le stesse abilità di cui hanno bisogno per tornare a vivere nel mondo reale.",
+        "popularity": 466.3668,
+        "poster_path": "/myoxQxrAEZICqe3DRyJUsiE5lWS.jpg",
+        "production_companies": [
+          {
+            "id": 174,
+            "logo_path": "/zhD3hhtKB5qyv7ZeL4uLpNxgMVU.png",
+            "name": "Warner Bros. Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 923,
+            "logo_path": "/5UQsZrfbfG2dYJbx8DxfoTr2Bvu.png",
+            "name": "Legendary Pictures",
+            "origin_country": "US"
+          },
+          {
+            "id": 110691,
+            "logo_path": "/i0D9b0veZbValgEFiJjSd0mbb9C.png",
+            "name": "Mojang Studios",
+            "origin_country": "SE"
+          },
+          {
+            "id": 829,
+            "logo_path": "/aXqwCvJSCDbTclkxAYfsT1l4Dsa.png",
+            "name": "Vertigo Entertainment",
+            "origin_country": "US"
+          },
+          {
+            "id": 159602,
+            "logo_path": "/e3KodIPxOSC6xpzgIBISB4COQcu.png",
+            "name": "On the Roam",
+            "origin_country": "US"
+          },
+          {
+            "id": 216687,
+            "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+            "name": "Domain Entertainment",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "SE",
+            "name": "Sweden"
+          },
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2025-03-31",
+        "revenue": 816566661,
+        "runtime": 101,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Released",
+        "tagline": "",
+        "title": "Un film Minecraft",
+        "video": false,
+        "vote_average": 6.193,
+        "vote_count": 740
+      },
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "film": {
+        "adult": false,
+        "backdrop_path": "/2q56lAr8zr43m2soEQe3IXyND9q.jpg",
+        "belongs_to_collection": {
+          "id": 8864,
+          "name": "Final Destination - Collezione",
+          "poster_path": "/ImnmSDVPK8Ds5LhVFdox6idAbN.jpg",
+          "backdrop_path": "/y3aWOInifbGKXM34KjtcMITrZRZ.jpg"
+        },
+        "budget": 0,
+        "genres": [
+          {
+            "id": 27,
+            "name": "Horror"
+          },
+          {
+            "id": 9648,
+            "name": "Mistero"
+          }
+        ],
+        "homepage": "",
+        "id": 574475,
+        "imdb_id": "tt9619824",
+        "origin_country": [
+          "US"
+        ],
+        "original_language": "en",
+        "original_title": "Final Destination: Bloodlines",
+        "overview": "Tormentata da un violento incubo ricorrente, Stefanie torna a casa dal college per rintracciare l'unica persona in grado di interrompere un ciclo mortale che coinvolge i membri della sua famiglia, e salvarli dalla macabra fine che inevitabilmente li attende.",
+        "popularity": 32.7676,
+        "poster_path": "/cAoktVUBhGyULRoxV6mZ2LB3x7I.jpg",
+        "production_companies": [
+          {
+            "id": 12,
+            "logo_path": "/2ycs64eqV5rqKYHyQK0GVoKGvfX.png",
+            "name": "New Line Cinema",
+            "origin_country": "US"
+          },
+          {
+            "id": 48788,
+            "logo_path": null,
+            "name": "Practical Pictures",
+            "origin_country": ""
+          },
+          {
+            "id": 252366,
+            "logo_path": null,
+            "name": "Freshman Year",
+            "origin_country": ""
+          },
+          {
+            "id": 252367,
+            "logo_path": null,
+            "name": "Fireside Films",
+            "origin_country": "US"
+          },
+          {
+            "id": 216687,
+            "logo_path": "/kKVYqekveOvLK1IgqdJojLjQvtu.png",
+            "name": "Domain Entertainment",
+            "origin_country": "US"
+          }
+        ],
+        "production_countries": [
+          {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+          }
+        ],
+        "release_date": "2025-05-09",
+        "revenue": 0,
+        "runtime": 110,
+        "spoken_languages": [
+          {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+          }
+        ],
+        "status": "Post Production",
+        "tagline": "",
+        "title": "Final Destination: Bloodlines",
+        "video": false,
+        "vote_average": 0,
+        "vote_count": 0
+      },
+      "id": 11
     }
   ]
 }

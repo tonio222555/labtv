@@ -16,6 +16,7 @@
   padding: 1rem;
   border-radius: 8px;
   position: relative;
+  width: 800px;
 }
 
 @media (max-width: 600px) {
