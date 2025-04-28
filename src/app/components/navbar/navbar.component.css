@@ -1,0 +1,115 @@
+nav {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background-color: #0e0b14e1;
+    padding: 0.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.img-home img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav ul li a,
+nav ul li button {
+    background: none;
+    border: none;
+    color: #e5e5e5;
+    font-weight: 500;
+    font-size: 1.05rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+nav ul li a:hover,
+nav ul li button:hover {
+    color: #1f80e0;
+    text-shadow: 0 0 6px #1f80e0;
+}
+
+.scritta {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    text-transform: none;
+    color: #ffffff;
+}
+
+.white-icon {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.white-icon:hover {
+    color: #e50914;
+}
+
+@media (max-width: 600px) {
+    nav {
+        padding: 1rem;
+    }
+
+    nav ul {
+        width: 100%;
+        gap: 1.5rem;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: auto;
+    }
+
+    nav ul:nth-of-type(2) {
+        gap: 0; 
+    }
+
+    nav ul li a,
+    nav ul li button {
+        font-size: 1.5rem;
+        gap: 0;
+        justify-content: center;
+    }
+
+    nav ul li a span,
+    nav ul li button span {
+        display: none;
+    }
+
+    .img-home {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+
+    nav ul {
+        gap: 1em
+    }
+
+    nav ul li a span,
+    nav ul li button span {
+        font-size: 0.8em;
+    }
+}

@@ -1,0 +1,107 @@
+h2{
+    text-align: center;
+    padding: 0.8em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.card {
+    position: relative;
+    max-width: 18vw;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+  
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(31, 128, 224, 0.7);
+}
+  
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+a{
+    display: block;
+    line-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: auto;
+    margin: auto;
+    padding-bottom: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+  
+.card:hover > .overlay {
+    opacity: 1;
+}
+  
+.overlay h4 {
+    margin: 0 0 0.5rem;
+}
+  
+.overlay .buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+  
+.overlay button {
+    background-color: #1F80E0;
+    border: 2px solid white;;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.overlay button:hover{
+    background-color: #1f39e0;
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .container {
+        gap: 1.2em; 
+    }
+
+    .card {
+        max-width: 25vw; 
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        gap: 1em;  
+    }
+
+    .card {
+        max-width: 45vw; 
+    }
+
+    h2 {
+        font-size: 1.2rem;  
+    }
+}

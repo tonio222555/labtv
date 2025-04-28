@@ -1,0 +1,29 @@
+<nav *ngIf="authService.isUserLogged">
+  <a class="img-home" routerLink="/homepage"><img id="logo" src="../../../../assets/immagini/logo.png" alt="Vai alla Home"></a>
+  <ul>
+    <li><a routerLink="/homepage"><mat-icon>home</mat-icon><span>Home</span></a></li>
+    <li><a routerLink="/film"><mat-icon>movie</mat-icon><span>Film</span></a></li>
+    <li><a routerLink="/preferiti"><mat-icon>favorite</mat-icon><span>La mia lista</span></a></li>
+  </ul>
+  
+  <ul *ngIf="authService.isUserLogged">
+    <li>
+      <button mat-button routerLink="/ricerca">
+        <mat-icon [ngStyle]="{'color': 'white'}">search</mat-icon><span>Ricerca</span>
+      </button>
+    </li>
+    <li>
+      <button class="scritta" mat-button [matMenuTriggerFor]="menu" [ngStyle]="{'color': 'white'}">
+        <mat-icon [ngStyle]="{'color': 'white'}">account_circle</mat-icon>
+        <span>Benvenuto {{authService.getLoggedUser()?.user?.name}}</span>
+      </button>
+    </li>    
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="logout()">
+        <mat-icon>logout</mat-icon>
+        <span>Esci</span>
+      </button>
+    </mat-menu>
+  </ul>
+  
+</nav>

@@ -1,0 +1,109 @@
+.hero {
+    position: relative;
+    height: 87vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 35px;
+    margin: 1em;
+    box-shadow: 0px 0px 10px 5px rgba(31, 128, 224, 0.7)
+  }
+  
+  .hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .box-contenuto {
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin-left: 3rem;
+    max-width: 600px;
+  }
+  
+  .box-contenuto h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .box-contenuto button {
+    margin-right: 1rem;
+    background-color: #1F80E0;
+    color: white;
+    transition: 0.3s ease;
+  }
+
+  .box-contenuto button:hover{
+    background-color: #1f39e0;
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent);
+    z-index: 2;
+  }
+  
+  @media (max-width: 600px) {
+    .hero {
+        height: 60vh; 
+        margin: 0.5em;
+    }
+
+    .box-contenuto {
+        margin-left: 1rem; 
+        max-width: 90%; 
+        text-align: center;
+    }
+
+    .box-contenuto h2 {
+        font-size: 1.8rem; 
+    }
+
+    .box-contenuto button {
+        margin-right: 0.5rem; 
+        font-size: 1rem; 
+        padding: 0.5rem 1.2rem; 
+    }
+
+    .gradient-overlay {
+        width: 70%; 
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .hero {
+        height: 70vh; 
+        margin: 1em;
+    }
+
+    .box-contenuto {
+        margin-left: 2rem;
+        max-width: 80%; 
+    }
+
+    .box-contenuto h2 {
+        font-size: 2rem; 
+    }
+
+    .box-contenuto button {
+        margin-right: 0.8rem; 
+        font-size: 1.1rem; 
+    }
+
+    .gradient-overlay {
+        width: 60%; 
+    }
+}
